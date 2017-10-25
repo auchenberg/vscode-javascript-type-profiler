@@ -1,5 +1,5 @@
 {
-    "name": "vscode-runtime-type-profiler",
+    "name": "vscode-javascript-type-profiler",
     "displayName": "JavaScript Runtime type Profiler powered by Puppeteer",
     "description": "JavaScript Runtime type Profiler powered by Puppeteer",
     "version": "1.0.0",
