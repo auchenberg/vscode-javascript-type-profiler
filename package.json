@@ -1,7 +1,7 @@
 {
     "name": "vscode-javascript-type-profiler",
-    "displayName": "JavaScript Runtime type Profiler powered by Puppeteer",
-    "description": "JavaScript Runtime type Profiler powered by Puppeteer",
+    "displayName": "JavaScript type profiler powered by Puppeteer",
+    "description": "JavaScript type profiler powered by Puppeteer",
     "version": "1.0.0",
     "publisher": "auchenberg",
     "engines": {
