@@ -1,0 +1,43 @@
+{
+    "name": "vscode-runtime-type-profiler",
+    "displayName": "JavaScript Runtime type Profiler powered by Puppeteer",
+    "description": "JavaScript Runtime type Profiler powered by Puppeteer",
+    "version": "1.0.0",
+    "publisher": "auchenberg",
+    "engines": {
+        "vscode": "^1.6.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "keywords": [
+        "Other"
+    ],
+    "activationEvents": [
+        "*",
+        "onCommand:extension.typeProfile"
+    ],
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.typeProfile",
+                "title": "Type profile JavaScript"
+            }
+        ]
+    },
+    "main": "./src/extension",
+    "preview": false,
+    "icon": "icon.png",
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+        "vscode": "^1.0.3",
+        "typescript": "^2.0.3"
+    },
+    "dependencies": {
+        "appdirectory": "^0.1.0",
+        "listify": "^1.0.0",
+        "relaxed-json": "^1.0.1"
+    }
+}
